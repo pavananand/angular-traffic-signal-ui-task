@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="controller">
+    <button (click)="redSignal()" class="btn">Red</button>
+    <button (click)="yellowSignal()" class="btn">Yellow</button>
+    <button (click)="greenSignal()" class="btn">Green</button>
+  </div>
+  <div class="signal">
+    <div [ngClass]="{'red': isRed}" class="bulb"></div>
+    <div [ngClass]="{'yellow': isYellow}" class="bulb"></div>
+    <div [ngClass]="{'green': isGreen}" class="bulb"></div>
+  </div>
+</div>

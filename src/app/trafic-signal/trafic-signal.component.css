@@ -1,0 +1,46 @@
+.container {
+  height: 100%;
+  width: auto;
+  padding: 0 20%;
+}
+
+.controller {
+  float: left;
+}
+
+.btn {
+  background-color: grey;
+  padding: 15px;
+  width: auto;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.signal {
+  float: right;
+  background-color: rgb(26, 31, 31);
+  border: 2px solid rgb(26, 31, 31);
+  border-radius: 20px;
+}
+
+.bulb {
+  min-width: 20px;
+  min-height: 20px;
+  padding: 20px;
+  margin: 10px;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
